@@ -1,0 +1,20 @@
+h1 {
+    font-family: Playfair Display;
+    font-size: 64px;
+    color: #000000;
+}
+
+h2:not(#projects h2) {
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: italic;
+    color: #A8A8A8;
+}
+
+h1 + h2 {
+    margin-top: -3rem;
+}
+
+body {
+    background-color: #F5F5F5;
+}
