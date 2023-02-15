@@ -18,3 +18,110 @@ h1 + h2 {
 body {
     background-color: #F5F5F5;
 }
+
+.banner {  overflow: auto; position:relative }
+.banner ul {padding-left: 0;}
+.banner li { list-style: none; }
+.banner ul li { float: left; }
+.banner .dots {
+		position: absolute;
+		left: 0;
+        right: 0;
+		margin-left: auto;
+		margin-right:auto;
+        display:block;
+		text-align:center;
+	}
+		.banner .dots li {
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			margin: 0 4px;
+			text-indent: -999em;
+			border: 2px solid #555;
+			border-radius: 6px;
+			cursor: pointer;
+			opacity: .4;
+			-webkit-transition:  .5s, opacity .5s;
+			-moz-transition:  .5s, opacity .5s;
+			transition:  .5s, opacity .5s;
+		}
+			.banner .dots li.active {
+				background: #aaa;
+				opacity: 1;
+			}
+
+.banner .client {
+		background-size: 200px 200px !important;
+		height: 200px;
+		float: none;
+		position: relative;
+		margin: 0 auto;
+		transition: 0.5s ease;
+		overflow:visible;
+}    	
+.banner h3, .banner h4 {
+	text-align: center;
+  font-family: 'montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #555;
+}
+.banner h3 {
+		font-size: 42px;
+		font-weight: 400;
+		letter-spacing: 5px;
+}
+.banner h4 span {
+	  text-transform:uppercase;
+    letter-spacing: 3px;
+	  font-size: 22px;
+}
+    .banner .client.va-logo {   background: url("/img/QR_gray.png") no-repeat center center; }
+	.banner .client.disa-logo { background: url("/img/LS_gray.png") no-repeat center center; }
+	.banner .client.centcom-logo { background: url("/img/TBA_gray.png") no-repeat center center; }
+	.banner .client.dos-logo { background: url("/img/TBA_gray.png") no-repeat center center; }
+	
+	.banner .client.va-logo:hover { background: url("/img/QR_color.png") no-repeat center center; }
+	.banner .client.disa-logo:hover { background: url("/img/LS_color.png") no-repeat center center; }
+	.banner .client.centcom-logo:hover { background: url("/img/TBA_color.png") no-repeat center center; }
+	.banner .client.dos-logo:hover { background: url("/img/TBA_color.png") no-repeat center center; }
+	
+	li:nth-child(1), li:nth-child(2) { width: 100%; }
+	.banner .client-group .one-fourth { 
+		float: left;
+		margin-left: 2.5%;
+		width: 23%;
+	}
+	.banner .client-group .first {
+		clear: both;
+		margin-left: 0;
+	}
+	
+	@media only screen and (max-width: 1200px) {
+		.banner .client {
+			background-size: 125px 125px !important;
+			height: 125px;
+		}
+	}
+	@media only screen and (max-width: 890px) {
+		.banner .client {
+			background-size: 200px 200px !important;
+			height: 200px;
+		}
+		.banner .client-group .one-fourth { 
+			float: left;
+			margin-left: 2.5%;
+			width: 48.%;
+		}
+		.banner .client-group .first, .banner .client-group .one-fourth:nth-child(4) {
+			clear: both;
+			margin-left: 0;
+		}
+	}
+	@media only screen and (max-width: 500px) {
+		.banner .client-group .one-fourth {
+			width: 100%;
+			clear: both;
+			margin: 20px 0;
+		}
+	}
