@@ -76,15 +76,15 @@ body {
     letter-spacing: 3px;
 	  font-size: 22px;
 }
-    .banner .client.va-logo {   background: url("/img/QR_gray.png") no-repeat center center; }
-	.banner .client.disa-logo { background: url("/img/LS_gray.png") no-repeat center center; }
-	.banner .client.centcom-logo { background: url("/img/TBA_gray.png") no-repeat center center; }
-	.banner .client.dos-logo { background: url("/img/TBA_gray.png") no-repeat center center; }
+    .banner .client.qr-logo {   background: url("/img/QR_gray.png") no-repeat center center; }
+	.banner .client.ls-logo { background: url("/img/LS_gray.png") no-repeat center center; }
+	.banner .client.tba1-logo { background: url("/img/TBA_gray.png") no-repeat center center; }
+	.banner .client.tba2-logo { background: url("/img/TBA_gray.png") no-repeat center center; }
 	
-	.banner .client.va-logo:hover { background: url("/img/QR_color.png") no-repeat center center; }
-	.banner .client.disa-logo:hover { background: url("/img/LS_color.png") no-repeat center center; }
-	.banner .client.centcom-logo:hover { background: url("/img/TBA_color.png") no-repeat center center; }
-	.banner .client.dos-logo:hover { background: url("/img/TBA_color.png") no-repeat center center; }
+	.banner .client.qr-logo:hover { background: url("/img/QR_color.png") no-repeat center center; }
+	.banner .client.ls-logo:hover { background: url("/img/LS_color.png") no-repeat center center; }
+	.banner .client.tba1-logo:hover { background: url("/img/TBA_color.png") no-repeat center center; }
+	.banner .client.tba2-logo:hover { background: url("/img/TBA_color.png") no-repeat center center; }
 	
 	li:nth-child(1), li:nth-child(2) { width: 100%; }
 	.banner .client-group .one-fourth { 
