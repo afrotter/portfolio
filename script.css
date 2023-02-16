@@ -51,7 +51,7 @@ body {
 				opacity: 1;
 			}
 
-.banner .client {
+.banner .project {
 		background-size: 200px 200px !important;
 		height: 200px;
 		float: none;
@@ -76,50 +76,50 @@ body {
     letter-spacing: 3px;
 	  font-size: 22px;
 }
-    .banner .client.qr-logo {   background: url("/img/QR_gray.png") no-repeat center center; }
-	.banner .client.ls-logo { background: url("/img/LS_gray.png") no-repeat center center; }
-	.banner .client.tba1-logo { background: url("/img/TBA_gray.png") no-repeat center center; }
-	.banner .client.tba2-logo { background: url("/img/TBA_gray.png") no-repeat center center; }
+    .banner .project.qr-logo { background: url("/img/QR_gray.png") no-repeat center center; }
+	.banner .project.ls-logo { background: url("/img/LS_gray.png") no-repeat center center; }
+	.banner .project.tba1-logo { background: url("/img/TBA_gray.png") no-repeat center center; }
+	.banner .project.tba2-logo { background: url("/img/TBA_gray.png") no-repeat center center; }
 	
-	.banner .client.qr-logo:hover { background: url("/img/QR_color.png") no-repeat center center; }
-	.banner .client.ls-logo:hover { background: url("/img/LS_color.png") no-repeat center center; }
-	.banner .client.tba1-logo:hover { background: url("/img/TBA_color.png") no-repeat center center; }
-	.banner .client.tba2-logo:hover { background: url("/img/TBA_color.png") no-repeat center center; }
+	.banner .project.qr-logo:hover { background: url("/img/QR_color.png") no-repeat center center; }
+	.banner .project.ls-logo:hover { background: url("/img/LS_color.png") no-repeat center center; }
+	.banner .project.tba1-logo:hover { background: url("/img/TBA_color.png") no-repeat center center; }
+	.banner .project.tba2-logo:hover { background: url("/img/TBA_color.png") no-repeat center center; }
 	
 	li:nth-child(1), li:nth-child(2) { width: 100%; }
-	.banner .client-group .one-fourth { 
+	.banner .project-group .quartcol { 
 		float: left;
 		margin-left: 2.5%;
 		width: 23%;
 	}
-	.banner .client-group .first {
+	.banner .project-group .first {
 		clear: both;
 		margin-left: 0;
 	}
 	
 	@media only screen and (max-width: 1200px) {
-		.banner .client {
+		.banner .project {
 			background-size: 125px 125px !important;
 			height: 125px;
 		}
 	}
 	@media only screen and (max-width: 890px) {
-		.banner .client {
+		.banner .project {
 			background-size: 200px 200px !important;
 			height: 200px;
 		}
-		.banner .client-group .one-fourth { 
+		.banner .project-group .quartcol { 
 			float: left;
 			margin-left: 2.5%;
 			width: 48.%;
 		}
-		.banner .client-group .first, .banner .client-group .one-fourth:nth-child(4) {
+		.banner .project-group .first, .banner .project-group .quartcol:nth-child(4) {
 			clear: both;
 			margin-left: 0;
 		}
 	}
 	@media only screen and (max-width: 500px) {
-		.banner .client-group .one-fourth {
+		.banner .project-group .quartcol {
 			width: 100%;
 			clear: both;
 			margin: 20px 0;
