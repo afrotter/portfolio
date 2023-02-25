@@ -17,7 +17,7 @@ body {
 
 .card-list {
     display: flex;
-    padding: 3rem;
+    padding: 4rem;
     overflow-x: scroll;
 }
 
@@ -41,7 +41,7 @@ body {
     position: relative;
     flex-direction: column;
     height: 350px;
-    width: 400px;
+    width: 350px;
     min-width: 250px;
     padding: 1.5rem;
 /* Card shadows */
@@ -51,8 +51,6 @@ body {
 
 /* Animation transition */
     transition: .2s;
-
-
 }
 
 .card:hover {
@@ -96,7 +94,7 @@ body {
 }
 
 
-.card-author {
+/*.card-author {
     position: relative;
     display: grid;
     grid-template-columns: 75px 1fr;
@@ -109,29 +107,18 @@ body {
     align-self: start;
     position: relative;
     box-sizing: border-box;
-}
+}*/
 
 .author-avatar img {
-    width: 40px;
-    height: 40px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     filter: grayscale(100%);
     display: block;
+    
     overflow: hidden;
     margin: 16px 10px;
 }
-
-.author-name {
-    grid-area: auto;
-    box-sizing: border-box;
-}
-
-.author-name-prefix {
-    font-style: normal;
-    font-weight: 700;
-    color: #7a7a8c;
-}
-
 
 .tags {
     margin: 1rem 0 2rem;
