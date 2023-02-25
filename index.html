@@ -3,51 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="script.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="card.css">
+    
     
     <title>Portfolio</title>
 </head>
 <body>
 
-    <h1>JD // Front-end Developer</h1>
-    <h1> </h1>
+    <article>
+      <h1>🚀 Hi, I'm JD. </h1>
+      <h2>⛰️ A Front-End Developer from Cape Town.</h2>
+    </article>
 
-
+    
     <!-- Section for displaying projects -->
-<section id="projects">
-  <div class="banner">
-    <ul>
-        <li>
-          <div class="project-group projects">
-            <h3>Projects</h3>
-            <div class="quartcol first">
-              <a href="https://github.com/afrotter/qrcode_generator" style="text-decoration: none;">
-          <div class="project qr-logo"></div>
-          <h4><span>QR Code Generator</span><br>Easily create QR codes</h4>
-            </a>
-        </div>
-        <div class="quartcol">
-          <a href="https://github.com/afrotter/simple_loadshedding_checker" style="text-decoration: none;">
-          <div class="project ls-logo"></div>
-          <h4><span>Loadshedding Checker</span><br>Don't get stuck in the dark<h4>
+    <section class="card-list">
+
+      <article class="card">
+        <header class="card-header">
+          <p>May 24th 2020</p>
+          <h2>QR Code Generator</h2>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="/img/QR_color.png" />
           </a>
+          
+          <div class="author-name">
+            <div class="author-name-prefix">Author</div>
+            Jeff Delaney
+          </div>
+          <div class="tags">
+            <a>HTML</a>
+            <a>JavaScript</a>
+          </div>
         </div>
-        <div class="quartcol">
-          <div class="project tba1-logo"></div>
-          <h4><span>TBA</span><br>Coming soon...</h4>
+
+      </article>
+
+      <article class="card">
+        <header class="card-header">
+          <p>May 24th 2020</p>
+          <h2>Loadshedding Checker</h2>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="/img/QR_color.png" />
+          </a>
+          
+          <div class="author-name">
+            <div class="author-name-prefix">Author</div>
+            Jeff Delaney
+          </div>
+          <div class="tags">
+            <a>Python</a>
+            <a>HTML</a>
+          </div>
         </div>
-        <div class="quartcol">
-          <div class="project tba2-logo"></div>
-          <h4><span>TBA</span><br>Coming soon...</h4>
-        </div>	
-      </div>
-    </li>
-    </ul>
- 
-</div>
-</section>
+
+      </article>
+
+      <article class="card">
+        <header class="card-header">
+          <p>May 24th 2020</p>
+          <h2>Card tricks are fun. Hi mom!</h2>
+        </header>
+
+        <div class="card-author">
+          <a class="author-avatar" href="#">
+            <img src="/img/QR_color.png" />
+          </a>
+          
+          <div class="author-name">
+            <div class="author-name-prefix">Author</div>
+            Jeff Delaney
+          </div>
+          <div class="tags">
+            <a>CSS</a>
+            <a>HTML</a>
+          </div>
+        </div>
+
+      </article>
+
+    </section>
+
+
     
 </body>
 </html>
