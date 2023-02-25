@@ -8,6 +8,13 @@ body {
     font-family: 'DM Mono', monospace;
 }
 
+.hero {
+    padding-bottom: 4;
+    font-size: larger;
+    text-align: center;
+}
+
+
 .card-list {
     display: flex;
     padding: 3rem;
